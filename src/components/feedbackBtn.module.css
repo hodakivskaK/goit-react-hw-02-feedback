@@ -1,0 +1,23 @@
+.feedbackBtnBox {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  background-color: #0a0a23;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.feedbackBtn {
+  border: none;
+  border-radius: 10px;
+  min-height: 30px;
+  min-width: 120px;
+  background-color: #fff;
+}
+
+.feedbackBtn:hover {
+  background-color: #c5c5c5;
+  cursor: pointer;
+  transform: scale(1.1);
+}
